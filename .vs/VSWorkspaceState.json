@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookStore",
+    "\\BookStore\\Migrations",
+    "\\BookStore\\Migrations\\AuthBookStore",
+    "\\BookStore\\ViewModels",
+    "\\BookStore\\Views",
+    "\\BookStore\\Views\\Author",
+    "\\BookStore\\wwwroot",
+    "\\BookStore\\wwwroot\\lib",
+    "\\BookStore\\wwwroot\\lib\\jquery"
+  ],
+  "SelectedNode": "\\BookStore\\Migrations\\AuthBookStore\\_add auth.cs",
+  "PreviewInSolutionExplorer": false
+}

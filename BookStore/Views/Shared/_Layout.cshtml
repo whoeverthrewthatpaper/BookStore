@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">BookStore</a>
+            <partial name="_LoginPartial" />
+    </nav>
+    @if (ViewBag.Message != null)
+    {
+        <h5 class="alert alert-danger">@ViewBag.Message</h5>
+    }
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+@RenderSection("Scripts", required: false)
+</body>
+</html>
